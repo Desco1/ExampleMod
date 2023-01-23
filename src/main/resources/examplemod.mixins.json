@@ -1,0 +1,10 @@
+{
+    "verbose": true,
+    "minVersion": "0.8.0",
+    "compatibilityLevel": "JAVA_8",
+    "package": "com.desco.examplemod.mixins",
+    "refmap": "examplemod.mixins.refmap.json",
+    "mixins": [
+        "MinecraftMixin"
+    ]
+}
