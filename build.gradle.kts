@@ -21,8 +21,9 @@ sourceSets {
 minecraft {
     version = "1.8.9-11.15.1.2318-1.8.9"
     mappings = "stable_22"
-    makeObfSourceJar = false
+    runDir = runDir
 
+    makeObfSourceJar = false
     clientJvmArgs.add("-Delementa.dev=true")
     clientRunArgs.add("--tweakClass gg.essential.loader.stage0.EssentialSetupTweaker")
     clientRunArgs.add("--mixin examplemod.mixins.json")
